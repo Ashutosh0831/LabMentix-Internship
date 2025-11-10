@@ -1,0 +1,33 @@
+[
+    {
+        "timestamp": "2025-11-04 15:26:35",
+        "url": "https://api.zippopotam.us/us/90210",
+        "method": "GET",
+        "headers": {},
+        "body": "",
+        "status": 200,
+        "response": "{\n    \"country\": \"United States\",\n    \"country abbreviation\": \"US\",\n    \"post code\": \"90210\",\n    \"places\": [\n        {\n            \"place name\": \"Beverly Hills\",\n            \"longitude\": \"-118.4065\",\n            \"latitude\": \"34.0901\",\n            \"state\": \"California\",\n            \"state abbreviation\": \"CA\"\n        }\n    ]\n}"
+    },
+    {
+        "timestamp": "2025-11-10 11:26:17",
+        "url": "https://jsonplaceholder.typicode.com/todos/1",
+        "method": "GET",
+        "headers": {},
+        "body": "",
+        "status": 200,
+        "time_ms": 1985.78,
+        "response": "{\n    \"userId\": 1,\n    \"id\": 1,\n    \"title\": \"delectus aut autem\",\n    \"completed\": false\n}"
+    },
+    {
+        "timestamp": "2025-11-10 11:29:09",
+        "url": "https://jsonplaceholder.typicode.com/posts",
+        "method": "POST",
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "body": "{\n  \"title\": \"foo\",\n  \"body\": \"bar\",\n  \"userId\": 1\n}",
+        "status": 201,
+        "time_ms": 1925.37,
+        "response": "{\n    \"title\": \"foo\",\n    \"body\": \"bar\",\n    \"userId\": 1,\n    \"id\": 101\n}"
+    }
+]
